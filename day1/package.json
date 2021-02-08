@@ -1,0 +1,16 @@
+{
+  "name": "day1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "db:create": "createdb restaurants",
+    "db:destroy": "dropdb restaurants",
+    "db:init": "psql -f schema.sql restaurants",
+    "db:seed": "psql -f seed.sql restaurants"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
